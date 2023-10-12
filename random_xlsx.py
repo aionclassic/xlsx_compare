@@ -12,6 +12,6 @@ while count != 50000:  # количесьво сгенерированых чи�
     count += 1
 
 df = pd.DataFrame(data, columns=['number'])  # название колонки
-df.to_excel('test_exel_3.xlsx')  # имя создаваемого EXEL файла
+df.to_excel('test_exel_4.xlsx')  # имя создаваемого EXEL файла
 
 print(df)
