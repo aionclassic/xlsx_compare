@@ -6,7 +6,7 @@ from tkinter import *
 import xlsxwriter
 name_column = 'number'  # название столбца для пересечения
 
-#создает список файлов находящихся в папке переменная data_directory
+#создает список файлов, находящихся в папке, переменная data_directory
 
 root = Tk()
 root.withdraw()
@@ -20,7 +20,7 @@ for root, dirs, files in os.walk(data_directory):
     for filename in files:
         list_file.append(os.path.join(root, filename))
 
-#создаем преременную dfN с 1ё колонкой , создаем из этой переменно переменую с уникальными занчениями вколонке
+#создаем переменную dfN с 1й колонкой, создаем из этой переменно переменную с уникальными значениями в колонке
 ii=0
 iii=[]
 for i in list_file:
